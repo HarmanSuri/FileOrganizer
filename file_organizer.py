@@ -27,7 +27,7 @@ def move_file(file):
     app_dir = os.path.join(current_dir, 'Applications')
 
     # lists of extensions for various types of files
-    doc_file_exts = ['.txt', '.doc', '.docx', '.rtf', 'pdf']
+    doc_file_exts = ['.txt', '.doc', '.docx', '.rtf', '.pdf']
     img_file_exts = ['.jpg', '.png', '.bpm', '.tiff']
     exe_file_exts = ['.exe']
 
